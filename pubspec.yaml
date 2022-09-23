@@ -28,3 +28,4 @@ flutter:
   assets:
     - assets/app_logo.jpg
     - assets/splash.json
+    - assets/

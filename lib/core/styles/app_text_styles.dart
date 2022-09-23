@@ -23,4 +23,14 @@ abstract class AppTextStyles {
     color: AppColors.black,
     fontSize: 25,
   );
+
+  static TextStyle h32w500Black = const TextStyle(
+    fontSize: 32,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+  static TextStyle p16Black = const TextStyle(
+    color: Colors.black,
+    fontSize: 16,
+  );
 }

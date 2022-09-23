@@ -1,3 +1,5 @@
 class AppAssets {
-  static const splashAnimation = 'assets/splash.json';
+  static const assetBasePath = 'assets';
+  static const splashAnimation = '$assetBasePath/splash.json';
+  static const noConnection = '$assetBasePath/no-connection.gif';
 }

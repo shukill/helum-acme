@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1004112536265-a3075g612pq2eu7484cb9milpd2jt8kb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1004112536265-a3075g612pq2eu7484cb9milpd2jt8kb</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1004112536265-rc8ss652sg3bf7edcosn9q4s6hkkqebp.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAFatmamxXOTLC8Acr7wsTTvU8PiEzV5bU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1004112536265</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shukill.acme</string>
+	<key>PROJECT_ID</key>
+	<string>acme-helum</string>
+	<key>STORAGE_BUCKET</key>
+	<string>acme-helum.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1004112536265:ios:e0ef3a27f8650772a1e318</string>
+</dict>
+</plist>

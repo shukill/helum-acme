@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1004112536265",
+    "project_id": "acme-helum",
+    "storage_bucket": "acme-helum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004112536265:android:6151a2371af4855ea1e318",
+        "android_client_info": {
+          "package_name": "com.shukill.acme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004112536265-rc8ss652sg3bf7edcosn9q4s6hkkqebp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shukill.acme",
+            "certificate_hash": "1046460022dea2afc498d370de38a44cc3981a7e"
+          }
+        },
+        {
+          "client_id": "1004112536265-7trao2ko8ctcefnpabmvkqf5vrtteo8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8w0XMpkqJUeDgv9InIqc_n8LF0Qa3n6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004112536265-7trao2ko8ctcefnpabmvkqf5vrtteo8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

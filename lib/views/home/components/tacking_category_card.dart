@@ -1,3 +1,5 @@
+import 'package:acme/core/utilities.dart';
+import 'package:acme/views/detailView/detail_view.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -19,7 +21,13 @@ class TackingCategoryCard extends StatelessWidget {
     return KeyedSubtree(
       key: ValueKey(trackCategory),
       child: InkWell(
-        onTap: () {},
+        onTap: () {
+          AppUtilities.navigateTo(
+            context,
+            DetailView(model: trackCategory),
+            trackCategory.id,
+          );
+        },
         child: Padding(
           padding: const EdgeInsets.only(bottom: 20),
           child: Container(

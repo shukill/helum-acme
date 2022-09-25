@@ -3,6 +3,8 @@ import 'package:acme/views/home/models/tracking_categories_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
+import '../../views/detailView/tracking_data_model.dart';
+
 class MyFirebaseServices {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
@@ -13,6 +15,20 @@ class MyFirebaseServices {
         .withConverter<TrackingCategoriesModel>(
           fromFirestore: (snapshot, _) =>
               TrackingCategoriesModel.fromMap(snapshot.data()!),
+          toFirestore: (event, _) => event.toMap(),
+        )
+        .snapshots();
+  }
+
+  Stream<QuerySnapshot<TarckingDataModel>> trackingDataStream(String id) {
+    return _firestore
+        .collection(FirebaseConstants.track)
+        .doc(id)
+        .collection(FirebaseConstants.data)
+        .orderBy('uploadedTime', descending: true)
+        .withConverter<TarckingDataModel>(
+          fromFirestore: (snapshot, _) =>
+              TarckingDataModel.fromMap(snapshot.data()!),
           toFirestore: (event, _) => event.toMap(),
         )
         .snapshots();

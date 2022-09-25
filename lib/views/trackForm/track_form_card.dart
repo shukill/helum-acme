@@ -112,7 +112,7 @@ class _TrackFormCardState extends State<TrackFormCard> {
                   height: 20.0,
                 ),
                 Text(
-                  "Enter your ${widget.model.label} ${widget.model.unit}?",
+                  "Enter your ${widget.model.label} in ${widget.model.unit}?",
                   style: const TextStyle(fontSize: 15),
                 ),
                 const SizedBox(

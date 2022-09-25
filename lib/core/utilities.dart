@@ -33,4 +33,27 @@ class AppUtilities {
         ) ??
         false;
   }
+
+  static void navigateTo(BuildContext context, Widget widget, String lable) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => widget,
+        settings: RouteSettings(name: lable),
+      ),
+    );
+  }
+
+  static void navigateToReplacment(
+      BuildContext context, Widget widget, String lable) {
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (context) => widget,
+        settings: RouteSettings(name: lable),
+      ),
+    );
+  }
+
+  static void getBack(BuildContext context) {
+    Navigator.of(context).pop();
+  }
 }

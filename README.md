@@ -22,4 +22,5 @@ Health tracking application
     - contains [controllers] get controllers to manage state across the application.
     - contains [models] for parsing external JSON from API.
     - contatins [services] for getting data from external api or local DB
-# helum-acme
+    
+# helum-acme - iOS confriguration not done!

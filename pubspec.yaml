@@ -1,7 +1,7 @@
 name: acme
 description: A Health tracking application.
 
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -11,21 +11,26 @@ environment:
 dependencies:
   animate_do: ^2.1.0
   cached_network_image: ^3.2.0
+  cloud_firestore: ^3.4.9
   cupertino_icons: ^1.0.2
+  file_picker: ^4.6.1
+  firebase_analytics: ^9.3.6
+  firebase_auth: ^3.10.0
+  firebase_core: ^1.23.0
+  firebase_messaging: ^13.0.3
+  firebase_storage: ^10.2.17
   flutter:
     sdk: flutter
-  fluttertoast: ^8.0.8
+  flutter_svg: ^1.1.5
+  fluttertoast: ^8.0.9
   get: ^4.6.1
   google_fonts: ^2.3.1
+  hexcolor: ^2.0.7
   lottie: ^1.2.2
   shimmer: ^2.0.0
-
-  #Firebase - Packahes
-  firebase_analytics: ^9.3.6
-  firebase_core: ^1.23.0
-  firebase_auth: ^3.10.0
-  firebase_messaging: ^13.0.3
-  cloud_firestore: ^3.4.9
+  simple_animations: ^5.0.0
+  scrollable_positioned_list: ^0.1.10
+  uuid: ^3.0.6
 
 dev_dependencies:
   flutter_lints: ^1.0.0

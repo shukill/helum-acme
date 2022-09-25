@@ -1,8 +1,11 @@
 import 'package:acme/core/constants/app_constants.dart';
+import 'package:acme/core/constants/routes.dart';
 import 'package:acme/core/styles/app_colors.dart';
+import 'package:acme/core/utilities.dart';
 import 'package:acme/core/widgets/app_button.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:acme/views/home/homepage.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
@@ -15,7 +18,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.backgroundColor,
+      backgroundColor: AppColors.secondaryBackground,
       body: SizedBox(
         width: double.infinity,
         child: Column(
@@ -86,9 +89,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       duration: const Duration(milliseconds: 1000),
                       delay: const Duration(milliseconds: 1000),
                       from: 70,
-                      child: const Align(
+                      child: Align(
                         alignment: Alignment.bottomRight,
-                        child: AppButton(lable: 'Let\'s get started'),
+                        child: AppButton(
+                            lable: 'Let\'s get started',
+                            onTap: () => AppUtilities.navigateTo(
+                                  context,
+                                  const Homepage(),
+                                  Routes.homepage,
+                                )),
                       ),
                     )
                   ],

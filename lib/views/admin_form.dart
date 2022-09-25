@@ -1,10 +1,10 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:acme/core/styles/app_colors.dart';
-import 'package:acme/core/styles/app_text_styles.dart';
-import 'package:acme/core/widgets/app_button.dart';
-import 'package:acme/core/widgets/my_cached_network_image.dart';
+import '../core/styles/app_colors.dart';
+import '../core/styles/app_text_styles.dart';
+import '../core/widgets/app_button.dart';
+import '../core/widgets/my_cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';

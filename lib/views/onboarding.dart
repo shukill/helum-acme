@@ -1,11 +1,11 @@
-import 'package:acme/core/constants/app_constants.dart';
-import 'package:acme/core/constants/routes.dart';
-import 'package:acme/core/styles/app_colors.dart';
-import 'package:acme/core/utilities.dart';
-import 'package:acme/core/widgets/app_button.dart';
+import '../core/constants/app_constants.dart';
+import '../core/constants/routes.dart';
+import '../core/styles/app_colors.dart';
+import '../core/utilities.dart';
+import '../core/widgets/app_button.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:acme/views/home/homepage.dart';
+import 'home/homepage.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);

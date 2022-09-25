@@ -1,6 +1,3 @@
-import 'package:acme/core/constants/app_constants.dart';
-
-import 'package:acme/views/onboarding.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -8,8 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'core/constants/app_constants.dart';
 import 'core/constants/firebase_config.dart';
 import 'core/styles/app_colors.dart';
+import 'views/onboarding.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

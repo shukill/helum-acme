@@ -1,5 +1,5 @@
-import 'package:acme/core/utilities.dart';
-import 'package:acme/views/detailView/detail_view.dart';
+import '../../../core/utilities.dart';
+import '../../detailView/detail_view.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

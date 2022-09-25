@@ -1,5 +1,5 @@
-import 'package:acme/core/services/firebase.dart';
-import 'package:acme/views/home/models/tracking_categories_model.dart';
+import '../../../core/services/firebase.dart';
+import '../../home/models/tracking_categories_model.dart';
 import 'package:get/get.dart';
 import 'package:uuid/uuid.dart';
 

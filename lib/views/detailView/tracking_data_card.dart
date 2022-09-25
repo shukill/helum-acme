@@ -72,7 +72,7 @@ class TrackingDataCard extends StatelessWidget {
                   child: Container(
                     margin: const EdgeInsets.only(right: 10.0),
                     padding: const EdgeInsets.all(10.0),
-                    width: 120,
+                    width: 130,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8.0),
                       color: AppColors.black.withOpacity(0.8),

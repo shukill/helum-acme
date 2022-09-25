@@ -1,6 +1,6 @@
-import 'package:acme/core/constants/app_constants.dart';
-import 'package:acme/core/constants/assets.dart';
-import 'package:acme/core/styles/app_text_styles.dart';
+import '../constants/app_constants.dart';
+import '../constants/assets.dart';
+import '../styles/app_text_styles.dart';
 import 'package:flutter/material.dart';
 
 import 'app_button.dart';

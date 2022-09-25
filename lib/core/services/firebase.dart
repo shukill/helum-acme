@@ -1,5 +1,5 @@
-import 'package:acme/core/constants/firebase_constants.dart';
-import 'package:acme/views/home/models/tracking_categories_model.dart';
+import '../constants/firebase_constants.dart';
+import '../../views/home/models/tracking_categories_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

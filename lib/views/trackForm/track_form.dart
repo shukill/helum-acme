@@ -1,8 +1,8 @@
-import 'package:acme/core/styles/app_text_styles.dart';
-import 'package:acme/core/widgets/common_empty_error.dart';
-import 'package:acme/core/widgets/common_loading_indicator.dart';
+import '../../core/styles/app_text_styles.dart';
+import '../../core/widgets/common_empty_error.dart';
+import '../../core/widgets/common_loading_indicator.dart';
 
-import 'package:acme/core/widgets/something_went_wrong.dart';
+import '../../core/widgets/something_went_wrong.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

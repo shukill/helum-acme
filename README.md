@@ -1,8 +1,5 @@
 # ACME 
 
-Health tracking application
-
-
 #### Tools
     - GetX - Preferred over BLOC to reduce boiler code and get smoother user interaction
     - Firebase - Used as our NoSql database.
@@ -23,4 +20,3 @@ Health tracking application
     - contains [models] for parsing external JSON from API.
     - contatins [services] for getting data from external api or local DB
     
-# helum-acme - iOS confriguration not done!
